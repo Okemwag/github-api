@@ -38,8 +38,8 @@ def get_contribution_stats(username, access_token):
 
 
 if __name__ == "__main__":
-    username = "Chris-derek"
-    access_token = "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"
+    username = "REPLACE WITH YOUR USERNAME"
+    access_token = "REPLACE WITH YOUR ACCESS TOKEN"
 
     num_repos = get_number_of_repositories(username, access_token)
     print(f"Number of repositories for {username}: {num_repos}")
